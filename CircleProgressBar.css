@@ -1,0 +1,22 @@
+html, body {
+  background: #a4c4dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.progressBar-circle {
+    /* stroke-dasharray: 40 10;    */    
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: stroke-dashoffset .3s;
+}
+
+input {
+  box-sizing: border-box;
+  padding: .3rem;
+  margin-left: 1rem;
+  width: 80px;
+}
